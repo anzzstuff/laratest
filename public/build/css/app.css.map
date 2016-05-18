@@ -1,1 +1,1 @@
-{"version":3,"sources":["app.scss"],"names":[],"mappings":"AAGA;EACI,aAHW,EAId","file":"app.css","sourcesContent":["// @import \"node_modules/bootstrap-sass/assets/stylesheets/bootstrap\";\r\n$primary: green;\r\n\r\nbody {\r\n    color: $primary;\r\n}"],"sourceRoot":"/source/"}
+{"version":3,"sources":["app.css"],"names":[],"mappings":"AAAA","file":"app.css","sourceRoot":"/source/","sourcesContent":[]}
