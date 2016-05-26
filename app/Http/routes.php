@@ -16,7 +16,7 @@
 //     return view('welcome', compact('people'));
 // });
 
-Route::group(['middleware' => ['web']], function () {
+// Route::group(['middleware' => ['web']], function () {
     Route::get('/', 'PagesController@home');
     Route::get('about', 'PagesController@about');
     Route::get('cards', 'CardsController@index');
@@ -24,4 +24,4 @@ Route::group(['middleware' => ['web']], function () {
     Route::post('cards/{card}/notes', 'NotesController@store');
     Route::get('notes/{note}/edit', 'NotesController@edit');
     Route::patch('notes/{note}', 'NotesController@update');    
-});
+// });
